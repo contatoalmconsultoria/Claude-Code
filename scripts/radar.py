@@ -684,7 +684,9 @@ def gerar_html(m: dict, completo: bool = True) -> str:
                 for i in ctx["integracoes"]) + "</table>")
         H.append("<ul>" + "".join(f"<li>{esc(g)}</li>" for g in ctx.get("lacunas", [])) + "</ul>")
     else:
-        H.append("<p>O relatório completo segue em anexo (HTML).</p>")
+        link = config().get("email", {}).get("link_relatorio_detalhado", "").replace("{data}", m["ref"].isoformat())
+        H.append(f'<p>Relatório detalhado (pendências dos clientes, situação por cliente, concluídas e lacunas): '
+                 f'<a href="{esc(link)}">{esc(link)}</a></p>' if link else "<p>Relatório detalhado no repositório do Radar.</p>")
     H.append(f"<p class='meta'>Gerado em {agora().strftime('%d/%m/%Y %H:%M')} (America/Sao_Paulo) pelo Assistente Executivo de Gestão.</p>")
     H.append("</div></body></html>")
     return "".join(H)
@@ -715,8 +717,11 @@ def cmd_enviar(a):
     """Não envia nada: verifica autorizações e devolve a instrução para o conector de e-mail."""
     cfg = config().get("email", {})
     est_p = estado_path(a.data)
-    modo = ler_json(est_p)["modo"] if est_p.exists() else "simulacao"
+    est = ler_json(est_p) if est_p.exists() else {}
+    modo = est.get("modo", "simulacao")
     bloqueios = []
+    if (est.get("envio") or {}).get("status") == "enviado":
+        bloqueios.append("o relatório deste dia já foi enviado (envio único por dia)")
     if modo != "producao":
         bloqueios.append(f"modo de execução é '{modo}' (envio só em 'producao')")
     if not cfg.get("envio_autorizado"):
@@ -732,7 +737,9 @@ def cmd_enviar(a):
     print(json.dumps({"acao": "enviar", "conector": cfg.get("servico", "gmail"),
                       "modo_envio": cfg.get("modo_envio", "rascunho"), "para": cfg["destinatario"],
                       "assunto": meta["assunto"], "corpo_html": f"relatorios/{a.data}/email.html",
-                      "anexo": f"relatorios/{a.data}/radar.html"}, ensure_ascii=False))
+                      "relatorio_detalhado": f"relatorios/{a.data}/radar.html",
+                      "instrucao": "Enviar o conteúdo de corpo_html como htmlBody. O link do relatório detalhado "
+                                   "já está no corpo; não anexar arquivos codificados à mão."}, ensure_ascii=False))
 
 
 def cmd_registrar_envio(a):

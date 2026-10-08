@@ -55,6 +55,7 @@ Se uma etapa falhar, rode `checkpoint ... --erro "<mensagem>"`, registre a lacun
 
 ### Etapa `clientes`: situação por cliente
 - Para cada cliente ativo (Supabase `closing_clients` com `active = true`, mais clientes com pendência aberta): última reunião, próxima reunião, pendências da ALM e do cliente, entregas, riscos.
+- Os prospects listados em `config/radar.config.json` (`prospects`) não são clientes: não recebem classificação de situação nem cobrança de fechamento. Entram só como acompanhamento comercial.
 - Classifique como **Em dia**, **Atenção** ou **Crítico**. A falta de reunião, sozinha, nunca torna um cliente Crítico.
 - Considere a fase da metodologia: Organização, Gestão ou Planejamento.
 
@@ -76,11 +77,17 @@ Se uma etapa falhar, rode `checkpoint ... --erro "<mensagem>"`, registre a lacun
 - Saída em `relatorios/$D/`: `radar.md`, `radar.html` (detalhado) e `email.html` (corpo do e-mail).
 
 ### Etapa `email`: envio
-- `python3 scripts/radar.py enviar --data $D`
-- Se a resposta for `nao_enviar`, não envie. Registre os bloqueios como informação.
-- Se for `enviar`: com `modo_envio = rascunho`, crie um rascunho no Gmail; com `envio`, envie para o destinatário configurado. Assunto: `ALM | Radar Diário de Gestão | DD/MM/AAAA`. Corpo: `email.html`. Anexe `radar.html` se o conector permitir.
-- Registre o resultado: `python3 scripts/radar.py registrar-envio --data $D --status enviado|rascunho_criado|falhou --id-servico <id> [--erro "..."]`.
-- Se falhar, preserve o relatório e registre o erro. Nunca tente outro canal.
+Envio automático direto autorizado por Liliane em 08/10/2026, destinatário `contato@almconsultoria.com.br`
+(ver `config/radar.config.json`).
+- Antes de enviar, faça commit e push de `relatorios/$D/`. O e-mail aponta para o relatório detalhado no GitHub.
+- `RADAR_ENVIO_AUTORIZADO=1 python3 scripts/radar.py enviar --data $D`
+- Se a resposta for `nao_enviar`, não envie. Registre os bloqueios como lacuna.
+- Se for `enviar`:
+  - `modo_envio = envio`: use a ferramenta Gmail `send_message` com `to` = destinatário, `subject` = assunto devolvido e `htmlBody` = conteúdo integral de `relatorios/$D/email.html`. Não anexe arquivos.
+  - `modo_envio = rascunho`: use `create_draft` com os mesmos campos.
+  - Envie **uma única vez** por dia. Se `estado.json` já tiver um envio `enviado`, não envie de novo.
+- Registre o resultado: `python3 scripts/radar.py registrar-envio --data $D --status enviado|rascunho_criado|falhou --id-servico <id da mensagem> [--erro "..."]`.
+- Se falhar, preserve o relatório e registre o erro. Não tente outro canal e não diga que foi enviado.
 
 ### Etapa `persistencia`
 - `python3 scripts/radar.py validar`

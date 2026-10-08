@@ -4,8 +4,8 @@ Rotina diária que acompanha a operação, os clientes e a gestão da ALM. Ela i
 pendências, atrasos e decisões da direção e entrega à Liliane o relatório
 **GESTÃO ALM | Radar Diário | DD/MM/AAAA**.
 
-**Situação atual: simulação concluída, rotina NÃO ativada e envio de e-mail DESATIVADO.**
-Para ativar, veja a seção "Aprovações pendentes".
+**Situação atual: em produção desde 08/10/2026.** A rotina roda às 06h52 nos dias úteis e envia o relatório automaticamente
+para `contato@almconsultoria.com.br`, conforme autorização da Liliane em 08/10/2026. O banco fica no git.
 
 ## Estrutura
 
@@ -110,11 +110,12 @@ o relatório não diz "enviado".
 - `relatorio`: gerou MD, HTML e e-mail. `enviar` retornou `nao_enviar` com 4 bloqueios.
 - `dia-util`: 12/10/2026 aparece como feriado (Nossa Senhora Aparecida).
 
-## Aprovações pendentes (antes de ativar)
+## Decisões da direção (08/10/2026)
 
-1. Endereço de e-mail da direção que vai receber o relatório.
-2. Fase de envio inicial: rascunho (recomendado) ou envio direto.
-3. Criação da Rotina agendada (06h52, dias úteis), com os conectores listados.
-4. Onde fica o banco: git (atual) ou migração para o Supabase (`db/schema.sql`).
-5. Conectar o Gmail do Workspace @almconsultoria.com.br (recomendado).
-6. Confirmar a lista de clientes ativos e as 19 pendências marcadas com ⚠️.
+1. Destinatário do relatório: `contato@almconsultoria.com.br`.
+2. Forma de envio: automático e direto (`email.modo_envio = "envio"`), uma vez por dia. O corpo traz o resumo e um link para o relatório detalhado no GitHub.
+3. Rotina agendada às 06h52, de segunda a sexta, com Agenda, Drive, Gmail e Supabase.
+4. Banco de pendências no git (`data/pendencias.json`).
+5. Souvenir, Zellum, Wiva e Feiten são prospects, não clientes. ALM-0046 foi cancelada; ALM-0047 e ALM-0048 passaram a ser acompanhamento comercial.
+
+Ainda em aberto: conectar o Gmail do Workspace @almconsultoria.com.br e confirmar as pendências marcadas com ⚠️.

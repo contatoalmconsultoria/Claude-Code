@@ -1,7 +1,7 @@
 {
   "fuso_horario": "America/Sao_Paulo",
   "execucao": {
-    "modo": "simulacao",
+    "modo": "producao",
     "trava_expira_minutos": 120
   },
   "agendamento": {
@@ -12,7 +12,11 @@
   },
   "fontes": {
     "agenda_principal": "contato@almconsultoria.com.br",
-    "agendas_equipe": ["deise@almconsultoria.com.br", "lisiane@almconsultoria.com.br", "tatieli@almconsultoria.com.br"],
+    "agendas_equipe": [
+      "deise@almconsultoria.com.br",
+      "lisiane@almconsultoria.com.br",
+      "tatieli@almconsultoria.com.br"
+    ],
     "drive_pastas": {
       "transcricoes_tactiq": "13tZGMYbqi2fisjaM01aItd1nJvqa_1KH",
       "resumos_reuniao": "1BBgHGC66ZiJ3LaYhMgUPCOtG5UPEma8D",
@@ -21,7 +25,12 @@
     "gmail_conta_conectada": "contato.almconsultoria@gmail.com",
     "gmail_janela_dias": 15,
     "supabase_projeto": "ctathvuhlsabvsjyitxu",
-    "supabase_tabelas_leitura": ["closing_clients", "closing_cycles", "closing_tasks", "closing_state"]
+    "supabase_tabelas_leitura": [
+      "closing_clients",
+      "closing_cycles",
+      "closing_tasks",
+      "closing_state"
+    ]
   },
   "relatorio": {
     "dias_sem_movimentacao": 14,
@@ -29,9 +38,25 @@
   },
   "email": {
     "servico": "gmail",
-    "modo_envio": "rascunho",
-    "destinatario": null,
-    "envio_autorizado": false,
-    "max_prioridades_corpo": 5
+    "modo_envio": "envio",
+    "destinatario": "contato@almconsultoria.com.br",
+    "envio_autorizado": true,
+    "max_prioridades_corpo": 5,
+    "autorizacao": "Autorizado por Liliane em 08/10/2026: envio automático direto do relatório interno para contato@almconsultoria.com.br",
+    "link_relatorio_detalhado": "https://github.com/contatoalmconsultoria/Claude-Code/blob/claude/alm-executive-assistant-n40unt/relatorios/{data}/radar.md"
+  },
+  "persistencia": {
+    "onde": "git",
+    "repositorio": "contatoalmconsultoria/Claude-Code",
+    "branch": "claude/alm-executive-assistant-n40unt"
+  },
+  "prospects": {
+    "lista": [
+      "Souvenir Festas",
+      "Zellum",
+      "Wiva Bordados",
+      "Padaria Feiten"
+    ],
+    "observacao": "Não são clientes (confirmado por Liliane em 08/10/2026). Não classificar situação de cliente nem cobrar fechamento; acompanhar só como comercial."
   }
 }

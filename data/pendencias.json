@@ -1192,23 +1192,35 @@
       "prazo": null,
       "prazo_texto": "Sem prazo informado",
       "prioridade": "P4",
-      "status": "Aberta",
+      "status": "Cancelada",
       "fase": "Organização",
       "precisa_confirmacao": true,
-      "ultima_movimentacao": "2026-07-24",
+      "ultima_movimentacao": "2026-10-08",
       "historico": [
         {
           "data": "2026-10-08",
           "evento": "importada",
           "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
           "detalhe": "Linha de base importada do relatório anterior"
+        },
+        {
+          "data": "2026-10-08",
+          "evento": "cancelada",
+          "fonte": "Liliane (mensagem de 08/10/2026): Souvenir, Zellum, Wiva e Feiten não são clientes ainda",
+          "detalhe": "Souvenir Festas não é cliente; o POP de fechamento não se aplica",
+          "alteracoes": {
+            "status": {
+              "de": "Aberta",
+              "para": "Cancelada"
+            }
+          }
         }
       ],
       "evidencia_conclusao": null
     },
     {
       "id": "ALM-0047",
-      "cliente": "Padaria Feiten (proposta)",
+      "cliente": "Padaria Feiten (prospect)",
       "descricao": "Acompanhar a resposta ao Orçamento 260906 (Planejamento Prata), enviado em 28/09",
       "responsavel": "Liliane",
       "categoria": "comercial",
@@ -1220,23 +1232,35 @@
       "status": "Aguardando cliente",
       "fase": null,
       "precisa_confirmacao": false,
-      "ultima_movimentacao": "2026-09-28",
+      "ultima_movimentacao": "2026-10-08",
       "historico": [
         {
           "data": "2026-10-08",
           "evento": "importada",
           "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
           "detalhe": "Linha de base importada do relatório anterior"
+        },
+        {
+          "data": "2026-10-08",
+          "evento": "atualizada",
+          "fonte": "Liliane (mensagem de 08/10/2026): Souvenir, Zellum, Wiva e Feiten não são clientes ainda",
+          "detalhe": "Feiten é prospect: segue como acompanhamento comercial da proposta",
+          "alteracoes": {
+            "cliente": {
+              "de": "Padaria Feiten (proposta)",
+              "para": "Padaria Feiten (prospect)"
+            }
+          }
         }
       ],
       "evidencia_conclusao": null
     },
     {
       "id": "ALM-0048",
-      "cliente": "Wiva Bordados",
+      "cliente": "Wiva Bordados (prospect)",
       "descricao": "Formulário A do Finep Inovacred (assinado em 02/10): confirmar envio/protocolo e acompanhar retorno",
-      "responsavel": "ALM (a confirmar)",
-      "categoria": "equipe_tecnica",
+      "responsavel": "Liliane",
+      "categoria": "comercial",
       "origem": "Drive: WIVA BORDADOS › Finep Inovacred - Formulário A [4.10]-assinado.pdf",
       "data_identificacao": "2026-10-02",
       "prazo": null,
@@ -1244,14 +1268,38 @@
       "prioridade": "P3",
       "status": "Aberta",
       "fase": null,
-      "precisa_confirmacao": true,
-      "ultima_movimentacao": "2026-10-02",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
       "historico": [
         {
           "data": "2026-10-08",
           "evento": "importada",
           "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
           "detalhe": "Linha de base importada do relatório anterior"
+        },
+        {
+          "data": "2026-10-08",
+          "evento": "atualizada",
+          "fonte": "Liliane (mensagem de 08/10/2026): Souvenir, Zellum, Wiva e Feiten não são clientes ainda",
+          "detalhe": "Wiva é prospect: item passa a ser acompanhamento comercial",
+          "alteracoes": {
+            "cliente": {
+              "de": "Wiva Bordados",
+              "para": "Wiva Bordados (prospect)"
+            },
+            "categoria": {
+              "de": "equipe_tecnica",
+              "para": "comercial"
+            },
+            "responsavel": {
+              "de": "ALM (a confirmar)",
+              "para": "Liliane"
+            },
+            "precisa_confirmacao": {
+              "de": true,
+              "para": false
+            }
+          }
         }
       ],
       "evidencia_conclusao": null
