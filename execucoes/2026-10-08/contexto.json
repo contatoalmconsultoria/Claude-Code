@@ -1,0 +1,77 @@
+{
+  "data": "2026-10-08",
+  "modo": "simulacao",
+  "concluidas_desde": "2026-10-05",
+  "nota_execucao": "Primeira execução (simulação) feita em 08/10/2026 às 18h, depois das reuniões do dia. As reuniões de hoje aparecem como realizadas. As prioridades valem para sexta-feira, 09/10, que é o único dia útil antes de 13/10, porque 12/10 é feriado.",
+  "prioridades_dia": [
+    "Madri: concluir as duas ações da ALM vencidas há cerca de duas semanas (ALM-0003 conciliação de saldo e caixa; ALM-0006 fórmula do acumulado) antes do alinhamento com a Nuria, na terça 13/10 às 11h.",
+    "Aditivos 2026 de Vita e New Nose (ALM-0013 e ALM-0015): a vigência começou em 01/10 e não há via assinada. Definir hoje como coletar as assinaturas.",
+    "Preparar terça 13/10, com o feriado de 12/10 no meio: confirmar com a CULT data e convite da reunião inicial (ALM-0065) e analisar os documentos (ALM-0049); revisar o fechamento da Argentina (ALM-0012); fechar o custo de obras da Puhl (ALM-0051)."
+  ],
+  "reunioes_hoje": [
+    {"horario": "07:30–09:30", "cliente": "— (interno)", "titulo": "Programa Empresa saudável", "participantes": "Sem convidados no evento", "pauta": "Não informada no evento", "preparacao": "—", "pendencias_anteriores": [], "situacao": "Realizada (recorrente)"},
+    {"horario": "12:00–13:00", "cliente": "— (sem cliente)", "titulo": "Almoço na Seu Santo", "participantes": "Sem convidados no evento", "pauta": "Não informada", "preparacao": "—", "pendencias_anteriores": [], "situacao": "Realizada; não identificada como reunião de cliente"},
+    {"horario": "14:00–15:00", "cliente": "Vita Sorriso / New Nose", "titulo": "Alinhamento Vita e New Nose (equipes das clínicas)", "participantes": "Liliane, Deise, gerência New Nose, Stella, Luana", "pauta": "Desvios de set/26 antes da reunião com os sócios", "preparacao": "Planilhas Analisefinanceira Vita V0.15 e New Nose V0.09", "pendencias_anteriores": ["ALM-0017", "ALM-0018"], "situacao": "Realizada; transcrição no Drive"},
+    {"horario": "15:00–16:30", "cliente": "Vita Sorriso / New Nose", "titulo": "Fechamento set/26 com os sócios", "participantes": "Liliane, Deise, Ney Gusso, Jan Paulo Oliveira, equipes", "pauta": "Resultado, caixa e comercial de set/26", "preparacao": "Números conferidos no alinhamento das 14h", "pendencias_anteriores": ["ALM-0013", "ALM-0015"], "situacao": "Realizada; 11 novos combinados registrados"}
+  ],
+  "agenda_7_dias": [
+    {"quando": "sex 09/10", "titulo": "Sem compromissos na agenda", "observacao": "Único dia útil antes das reuniões de 13/10"},
+    {"quando": "seg 12/10", "titulo": "Feriado: Nossa Senhora Aparecida", "observacao": "A rotina não roda"},
+    {"quando": "ter 13/10 07:00", "titulo": "Reunião BNI"},
+    {"quando": "ter 13/10 11:00", "titulo": "Alinhamento Madri com a Nuria (Liliane e Deise)", "observacao": "Levar ALM-0003, ALM-0006 e os itens que dependem da Nuria"},
+    {"quando": "ter 13/10 13:00", "titulo": "Reunião inicial CULT (presencial, na ALM)", "observacao": "O evento não tem convidados. O cliente disse preferir sexta à tarde (ALM-0065)"},
+    {"quando": "ter 13/10 15:00", "titulo": "Fechamento set/26 Argentina (Liliane e Deise)", "observacao": "Começa logo depois da CULT, que vai até 15h no presencial. Transição apertada"},
+    {"quando": "qua 14/10 10:00", "titulo": "Reunião ALM com Grasel ADV", "observacao": "A convidada ainda não respondeu ao convite"},
+    {"quando": "qui 15/10 07:30", "titulo": "Programa Empresa saudável"},
+    {"quando": "qui 15/10 13:30", "titulo": "Fechamento set/26 Puhl", "observacao": "Sem convidados no evento. Depende de ALM-0042 e ALM-0051"},
+    {"quando": "qui 15/10", "titulo": "Aniversário Ronise (Celer)", "observacao": "Relacionamento"},
+    {"quando": "qua 21/10 11:00", "titulo": "Fechamento set/26 Madri (fora da janela de 7 dias)", "observacao": "Reapresentação do novo modelo (ALM-0055)"}
+  ],
+  "clientes": [
+    {"cliente": "Madri", "fase": "Organização/Gestão", "ultima_reuniao": "02/10 (teste do novo modelo)", "proxima_reuniao": "13/10 (Nuria) e 21/10 (fechamento)", "situacao": "Crítico", "motivo": "8 itens com prazo vencido entre 25 e 30/09, sendo 2 da ALM. Ciclo set/26 'aguardando informações'"},
+    {"cliente": "Vita Sorriso", "fase": "Gestão", "ultima_reuniao": "08/10", "proxima_reuniao": "Não agendada", "situacao": "Atenção", "motivo": "Aditivo sem assinatura com vigência já iniciada; relatório de inadimplência não recebido há 2 meses; resultado de set/26 negativo, com pedido de aporte"},
+    {"cliente": "New Nose", "fase": "Gestão", "ultima_reuniao": "08/10", "proxima_reuniao": "Não agendada", "situacao": "Atenção", "motivo": "Aditivo sem assinatura com vigência já iniciada; antecipação de recebíveis da Stone sem decisão"},
+    {"cliente": "Londres", "fase": "Organização", "ultima_reuniao": "23/09 (auditoria)", "proxima_reuniao": "Não agendada", "situacao": "Atenção", "motivo": "Revisão da auditoria vencida desde 01/10, sem confirmação. Ciclo set/26 'aguardando informações'"},
+    {"cliente": "Scheffler & Scheffler Advogados", "fase": "Organização", "ultima_reuniao": "06/10 (com a advogada)", "proxima_reuniao": "Não agendada", "situacao": "Atenção", "motivo": "Migração para o Sicredi vencida (setembro); extratos esperados até 13/10; conciliação até ~25/10"},
+    {"cliente": "Maintech", "fase": "Organização", "ultima_reuniao": "18/09", "proxima_reuniao": "Não agendada", "situacao": "Atenção", "motivo": "Ciclo set/26 'aguardando informações' desde 06/10, sem fechamento agendado"},
+    {"cliente": "Seu Santo", "fase": "Planejamento", "ultima_reuniao": "Sem registro recente", "proxima_reuniao": "Não agendada", "situacao": "Atenção", "motivo": "Status do fechamento divergente entre Drive e Supabase; nova sede com itens imediatos"},
+    {"cliente": "Epopeia (Porto e Lisboa)", "fase": "Gestão", "ultima_reuniao": "23/09", "proxima_reuniao": "Não agendada", "situacao": "Atenção", "motivo": "Ciclo set/26 'aguardando informações' desde 06/10"},
+    {"cliente": "CULT Idiomas", "fase": "Organização", "ultima_reuniao": "05/10", "proxima_reuniao": "13/10 (a confirmar)", "situacao": "Atenção", "motivo": "Cliente novo; reunião inicial sem convite registrado e em dia diferente do preferido"},
+    {"cliente": "Argentina", "fase": "Gestão", "ultima_reuniao": "05/10 (contabilidade)", "proxima_reuniao": "13/10", "situacao": "Em dia", "motivo": "Análise pronta, aguardando revisão da direção"},
+    {"cliente": "Puhl Empreendimentos", "fase": "Organização/Planejamento", "ultima_reuniao": "07/10 (treinamento)", "proxima_reuniao": "15/10", "situacao": "Em dia", "motivo": "Fechamento aguardando revisão; custo de obras vence em 13/10"},
+    {"cliente": "Miami e Orlando", "fase": "Gestão", "ultima_reuniao": "07/10", "proxima_reuniao": "Não agendada", "situacao": "Em dia", "motivo": "Set/26 apresentado; 2 ações novas da ALM"},
+    {"cliente": "Padaria Feiten (proposta)", "fase": "Comercial", "ultima_reuniao": "28/09", "proxima_reuniao": "Não agendada", "situacao": "Atenção", "motivo": "Proposta de 28/09 sem resposta registrada"},
+    {"cliente": "Wiva Bordados", "fase": "Finep", "ultima_reuniao": "Sem registro", "proxima_reuniao": "Não agendada", "situacao": "Atenção", "motivo": "Protocolo do Finep sem confirmação desde 02/10"}
+  ],
+  "alertas": [
+    {"tipo": "Contrato", "descricao": "Os aditivos 2026 de Vita e New Nose começaram a valer em 01/10 sem via assinada. Em 08/10 foram geradas novas versões em PDF, também sem assinatura.", "decisao_necessaria": true},
+    {"tipo": "Entrega atrasada", "descricao": "Madri: duas entregas da ALM vencidas desde 25 e 28/09 (fórmula do acumulado; conciliação de saldo e caixa). A planilha V0.6.4 não muda desde 23/09.", "decisao_necessaria": false},
+    {"tipo": "Fechamentos não agendados", "descricao": "Set/26 sem reunião na agenda: Londres, Maintech, Scheffler, Seu Santo e Epopeia (Porto e Lisboa). Os quatro primeiros e Epopeia estão 'aguardando informações' ou 'em análise' no Supabase.", "decisao_necessaria": true},
+    {"tipo": "Agenda", "descricao": "A 'Reunião inicial CULT' (13/10, 13h) não tem convidados, e na conversa de 05/10 o cliente pediu sexta à tarde. A 'Fechamento Set/26 - Puhl' (15/10) também está sem convidados.", "decisao_necessaria": false},
+    {"tipo": "Agenda", "descricao": "Terça 13/10 está cheia: BNI 7h, Madri 11h, CULT 13h–15h (presencial) e Argentina 15h. Com o feriado de 12/10, a preparação cai toda em 09/10.", "decisao_necessaria": false},
+    {"tipo": "Risco de cliente", "descricao": "Na reunião com os sócios da Vita (08/10), houve cobrança enfática sobre inadimplência sem controle e sobre o relatório que não chega. O tema afeta a credibilidade dos números apresentados pela ALM.", "decisao_necessaria": false},
+    {"tipo": "Divergência de dados", "descricao": "Puhl: o relatório anterior deu o caixa em espécie como resolvido, mas a tarefa do cliente (Gorete, prazo 09/10) segue pendente no Supabase. Seu Santo: ciclo set/26 'não iniciado' no Supabase, com análise já publicada em 06/10.", "decisao_necessaria": false},
+    {"tipo": "Comercial", "descricao": "Proposta Padaria Feiten (Orçamento 260906, 28/09) há 10 dias sem resposta registrada.", "decisao_necessaria": true},
+    {"tipo": "Segurança", "descricao": "Alerta crítico do Google (30/09) sobre senhas salvas expostas em vazamento. Detalhes omitidos de propósito; ver na conta Google.", "decisao_necessaria": true}
+  ],
+  "concluidas_fora_do_banco": [
+    "Fechamento set/26 de Miami e Orlando apresentado em 07/10. Evidência: transcrição Tactiq de 07/10 e ciclo 'apresentado' no Supabase (07/10 19:49). Não era pendência registrada.",
+    "Migração de hospedagem na HostGator (chamado 2785233) resolvida em 07/10. Evidência: e-mail do suporte. Item administrativo, não registrado."
+  ],
+  "integracoes": [
+    {"nome": "Google Agenda", "status": "✅ Leitura OK", "observacao": "Agenda contato@ e agendas da equipe (deise@ lida; lisiane@ sem eventos visíveis)"},
+    {"nome": "Google Drive", "status": "✅ Leitura OK", "observacao": "Transcrições Tactiq agora com texto completo (pasta compartilhada em 08/10), resumos de reunião e relatórios anteriores"},
+    {"nome": "Gmail", "status": "⚠️ Parcial", "observacao": "Conta conectada contato.almconsultoria@gmail.com, que só recebe cópias e não tem enviados. Respostas a clientes e propostas enviadas não são visíveis"},
+    {"nome": "Supabase (intranet-alm)", "status": "✅ Leitura OK", "observacao": "closing_clients, closing_cycles, closing_tasks e closing_state lidos sem alteração"},
+    {"nome": "Notion", "status": "➖ Sem uso", "observacao": "Só páginas antigas (2024), nada de acompanhamento"},
+    {"nome": "Envio de e-mail", "status": "⛔ Desativado", "observacao": "Destinatário não configurado e sem autorização. Simulação sem envio"}
+  ],
+  "lacunas": [
+    "Caixa do Google Workspace @almconsultoria.com.br (contato@ e deise@) não conectada: não dá para verificar 'clientes aguardando retorno', 'propostas sem resposta' nem compromissos assumidos em respostas de e-mail.",
+    "Reuniões sem transcrição no Drive: Treinamento Conciliação Puhl (07/10), Reunião advogada Scheffler (06/10), Celer (02/10) e as anteriores a 05/10 listadas no relatório de 08/10.",
+    "A transcrição 'Reunião Cult - 2026-10-05' tem trechos pessoais sensíveis dos sócios do cliente. Foram ignorados de propósito e não entram no relatório.",
+    "Clientes fora da lista do Supabase (closing_clients): Souvenir Festas, Zellum, Wiva Bordados e Padaria Feiten. Confirmar quais estão ativos. 'Xeque Mate' aparece no Supabase como palavra-chave da Argentina.",
+    "Responsáveis da equipe: só Liliane e Deise aparecem nas fontes como executoras. O papel de Lisiane, Tatieli e Vinny (suporte@) nas pendências não foi identificado.",
+    "Nenhuma pendência foi dada como concluída sem evidência. As marcadas com ⚠️ precisam de confirmação da direção."
+  ]
+}

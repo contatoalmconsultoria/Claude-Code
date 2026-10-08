@@ -1,0 +1,1772 @@
+{
+  "versao_schema": 1,
+  "atualizado_em": "2026-10-08",
+  "pendencias": [
+    {
+      "id": "ALM-0001",
+      "cliente": "Madri",
+      "descricao": "Confirmar o valor de Málaga e explicar a diferença de €8.636 entre vendas e receitas",
+      "responsavel": "António (cliente), com Liliane",
+      "categoria": "cliente",
+      "origem": "Drive: 'TESTE1 – Fechamento Madrid – Agosto 2026' (reunião 23/09)",
+      "data_identificacao": "2026-09-23",
+      "prazo": "2026-09-25",
+      "prazo_texto": null,
+      "prioridade": "P3",
+      "status": "Aguardando cliente",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-23",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0002",
+      "cliente": "Madri",
+      "descricao": "Confirmar a classificação dos €20 mil (empréstimo ou movimento entre empresas do grupo)",
+      "responsavel": "António (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'TESTE1 – Fechamento Madrid – Agosto 2026' (reunião 23/09)",
+      "data_identificacao": "2026-09-23",
+      "prazo": "2026-09-25",
+      "prazo_texto": null,
+      "prioridade": "P3",
+      "status": "Aguardando cliente",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-23",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0003",
+      "cliente": "Madri",
+      "descricao": "Conciliar saldo bancário e caixa",
+      "responsavel": "Liliane (com Nuria)",
+      "categoria": "direcao",
+      "origem": "Drive: 'TESTE1 – Fechamento Madrid – Agosto 2026' (reunião 23/09)",
+      "data_identificacao": "2026-09-23",
+      "prazo": "2026-09-28",
+      "prazo_texto": null,
+      "prioridade": "P1",
+      "status": "Aberta",
+      "fase": "Organização",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-09-23",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0004",
+      "cliente": "Madri",
+      "descricao": "Verificar fatura de energia (jul ou ago), valor adicional do contador e salários por competência",
+      "responsavel": "Nuria (cliente), com Liliane",
+      "categoria": "cliente",
+      "origem": "Drive: 'TESTE1 – Fechamento Madrid – Agosto 2026' (reunião 23/09)",
+      "data_identificacao": "2026-09-23",
+      "prazo": "2026-09-28",
+      "prazo_texto": null,
+      "prioridade": "P3",
+      "status": "Aguardando cliente",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-23",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0005",
+      "cliente": "Madri",
+      "descricao": "Confirmar a data dos impostos trimestrais",
+      "responsavel": "Nuria (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'TESTE1 – Fechamento Madrid – Agosto 2026' (reunião 23/09)",
+      "data_identificacao": "2026-09-23",
+      "prazo": "2026-09-28",
+      "prazo_texto": null,
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-23",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0006",
+      "cliente": "Madri",
+      "descricao": "Corrigir a fórmula do faturamento acumulado (não soma janeiro) na 'Análise Financeira Madrid V0.6.4'",
+      "responsavel": "Liliane",
+      "categoria": "direcao",
+      "origem": "Drive: 'TESTE1 – Fechamento Madrid – Agosto 2026' (reunião 23/09)",
+      "data_identificacao": "2026-09-23",
+      "prazo": "2026-09-25",
+      "prazo_texto": null,
+      "prioridade": "P1",
+      "status": "Aberta",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-23",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0007",
+      "cliente": "Madri",
+      "descricao": "Levantar os dias trabalhados em agosto",
+      "responsavel": "Nuria (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'TESTE1 – Fechamento Madrid – Agosto 2026' (reunião 23/09)",
+      "data_identificacao": "2026-09-23",
+      "prazo": "2026-09-28",
+      "prazo_texto": null,
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-23",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0008",
+      "cliente": "Madri",
+      "descricao": "Análise comercial: motivos das 41 não conversões, leitura do ticket e leads por canal",
+      "responsavel": "Comercial do cliente (nome a definir)",
+      "categoria": "cliente",
+      "origem": "Drive: 'TESTE1 – Fechamento Madrid – Agosto 2026' (reunião 23/09)",
+      "data_identificacao": "2026-09-23",
+      "prazo": "2026-09-30",
+      "prazo_texto": null,
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-23",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0009",
+      "cliente": "Madri",
+      "descricao": "Definições dos sócios: responsável comercial e média de referência para o alerta de 15%",
+      "responsavel": "Sócios (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'TESTE1 – Fechamento Madrid – Agosto 2026' (reunião 23/09)",
+      "data_identificacao": "2026-09-23",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-23",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0010",
+      "cliente": "Madri",
+      "descricao": "Concluir a planilha 'PRECIFICAÇÃO MADRID - 2026' (células 'teste' e valores de exemplo)",
+      "responsavel": "ALM (responsável não identificado)",
+      "categoria": "equipe_tecnica",
+      "origem": "Drive: planilha criada em 07/10",
+      "data_identificacao": "2026-10-07",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P3",
+      "status": "Aberta",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-07",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0011",
+      "cliente": "Londres",
+      "descricao": "Revisar a planilha da auditoria de Londres",
+      "responsavel": "Liliane",
+      "categoria": "direcao",
+      "origem": "Agenda: 'Auditoria Londres' 23/09 e lembrete 'Ver planilha auditoria Londres' 01/10",
+      "data_identificacao": "2026-09-23",
+      "prazo": "2026-10-01",
+      "prazo_texto": null,
+      "prioridade": "P2",
+      "status": "Aberta",
+      "fase": "Organização",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-09-23",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0012",
+      "cliente": "Argentina",
+      "descricao": "Concluir a análise de setembro de Once, Constitución e Florida para o fechamento de 13/10",
+      "responsavel": "Deise (análise) / Liliane (revisão)",
+      "categoria": "equipe_tecnica",
+      "origem": "Gmail: 'Reporte Financiero 09.2026' (05/10) e Drive",
+      "data_identificacao": "2026-10-05",
+      "prazo": "2026-10-13",
+      "prazo_texto": null,
+      "prioridade": "P2",
+      "status": "Aguardando direção",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-07",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        },
+        {
+          "data": "2026-10-08",
+          "evento": "status alterado",
+          "fonte": "Supabase intranet-alm: closing_cycles",
+          "detalhe": "Ciclo set/26 marcado 'aguardando_revisao' por Deise em 07/10: análise pronta, aguarda revisão da direção"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0013",
+      "cliente": "New Nose",
+      "descricao": "Obter o aditivo contratual 2026 assinado (vigência iniciou em 01/10/2026)",
+      "responsavel": "Liliane (coleta) / Jan Paulo Oliveira (assinatura)",
+      "categoria": "direcao",
+      "origem": "Drive: 'Aditivo New Nose 2026' (22/09)",
+      "data_identificacao": "2026-09-22",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P1",
+      "status": "Aguardando cliente",
+      "fase": null,
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        },
+        {
+          "data": "2026-10-08",
+          "evento": "verificação",
+          "fonte": "Drive: 'Aditivo New Nose 2026-1.pdf' (08/10)",
+          "detalhe": "Nova versão em PDF gerada em 08/10, ainda com campos de assinatura em branco. A vigência do aditivo começou em 01/10."
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0014",
+      "cliente": "New Nose",
+      "descricao": "Fechamento set/26: conferir os números e apresentar",
+      "responsavel": "Liliane/Deise",
+      "categoria": "direcao",
+      "origem": "Gmail (02/10), Drive e Agenda",
+      "data_identificacao": "2026-10-02",
+      "prazo": "2026-10-08",
+      "prazo_texto": null,
+      "prioridade": "P1",
+      "status": "Concluída",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        },
+        {
+          "data": "2026-10-08",
+          "evento": "concluída",
+          "fonte": "Drive: transcrição Tactiq 'Fechamento set/26 - Vita e New Nose - 2026-10-08' e Supabase intranet-alm: closing_cycles",
+          "detalhe": "Fechamento apresentado em 08/10 (15h). Ciclo set/26 marcado 'apresentado' por Liliane em 08/10 18:54."
+        }
+      ],
+      "evidencia_conclusao": "Transcrição da reunião de 08/10 e ciclo set/26 'apresentado' no Supabase"
+    },
+    {
+      "id": "ALM-0015",
+      "cliente": "Vita Sorriso",
+      "descricao": "Obter o aditivo contratual 2026 assinado (vigência iniciou em 01/10/2026)",
+      "responsavel": "Liliane (coleta) / sócios Vita (assinatura)",
+      "categoria": "direcao",
+      "origem": "Drive: 'Aditivo Vita 2026' (22/09)",
+      "data_identificacao": "2026-09-22",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P1",
+      "status": "Aguardando cliente",
+      "fase": null,
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        },
+        {
+          "data": "2026-10-08",
+          "evento": "verificação",
+          "fonte": "Drive: 'Aditivo Vita 2026-1.pdf' (08/10)",
+          "detalhe": "Nova versão em PDF gerada em 08/10, sem assinatura registrada no Drive"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0016",
+      "cliente": "Vita Sorriso",
+      "descricao": "Fechamento set/26: conferir os números e apresentar",
+      "responsavel": "Liliane/Deise",
+      "categoria": "direcao",
+      "origem": "Gmail (06/10), Drive e Agenda",
+      "data_identificacao": "2026-10-06",
+      "prazo": "2026-10-08",
+      "prazo_texto": null,
+      "prioridade": "P1",
+      "status": "Concluída",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        },
+        {
+          "data": "2026-10-08",
+          "evento": "concluída",
+          "fonte": "Drive: transcrição Tactiq 'Fechamento set/26 - Vita e New Nose - 2026-10-08' e Supabase intranet-alm: closing_cycles",
+          "detalhe": "Fechamento apresentado em 08/10. Ciclo set/26 'apresentado' em 08/10."
+        }
+      ],
+      "evidencia_conclusao": "Transcrição da reunião de 08/10 e ciclo set/26 'apresentado' no Supabase"
+    },
+    {
+      "id": "ALM-0017",
+      "cliente": "Vita Sorriso",
+      "descricao": "Ajuste de ~R$ 600 a menos nas diárias de ortodontia de agosto: Vita envia o detalhe e a ALM ajusta",
+      "responsavel": "Vita (envio) / ALM (ajuste)",
+      "categoria": "cliente",
+      "origem": "Drive: transcrição 'Fechamento New Nose e Vita' (10/09)",
+      "data_identificacao": "2026-09-10",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Organização",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-09-10",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0018",
+      "cliente": "Vita Sorriso",
+      "descricao": "Levantar o valor atual da ortodontia para avaliar reajuste e marcar conversa sobre avaliações com Felipe e Luana",
+      "responsavel": "Ney / Dr. Jan (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: transcrição (10/09)",
+      "data_identificacao": "2026-09-10",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Gestão",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-09-10",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0019",
+      "cliente": "Maintech",
+      "descricao": "Concluir o fechamento de setembro com os documentos recebidos em 02/10",
+      "responsavel": "Deise",
+      "categoria": "equipe_tecnica",
+      "origem": "Drive: MAINTECH › Documentos do cliente › SETEMBRO26",
+      "data_identificacao": "2026-10-02",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P3",
+      "status": "Aguardando cliente",
+      "fase": "Organização",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-10-06",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        },
+        {
+          "data": "2026-10-08",
+          "evento": "status alterado",
+          "fonte": "Supabase intranet-alm: closing_cycles",
+          "detalhe": "Ciclo set/26 marcado 'aguardando_informacoes' por Deise em 06/10"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0020",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Ajustar o gráfico financeiro com as despesas fixas na base",
+      "responsavel": "Deise",
+      "categoria": "equipe_tecnica",
+      "origem": "Drive: ata 'Reuniao 3 - SCHEFFLER ADVOCACIA' (11/09)",
+      "data_identificacao": "2026-09-11",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P3",
+      "status": "Aberta",
+      "fase": "Gestão",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-09-11",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0021",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Reforçar com Juliano a recomendação de conversar com o escritório sobre a nova sociedade",
+      "responsavel": "Liliane",
+      "categoria": "direcao",
+      "origem": "Drive: ata 'Reuniao 3 - SCHEFFLER ADVOCACIA' (11/09)",
+      "data_identificacao": "2026-09-11",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P3",
+      "status": "Aberta",
+      "fase": "Gestão",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-09-11",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0022",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Corrigir pagamentos em dinheiro lançados como saída do Banrisul e usar a conta caixa (espécie)",
+      "responsavel": "Scheffler (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-11",
+      "prazo": null,
+      "prazo_texto": "Durante a revisão",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-11",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0023",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Migrar a movimentação principal para o Sicredi e definir a finalidade das três contas",
+      "responsavel": "Scheffler (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: ata 'Reuniao 3 - SCHEFFLER ADVOCACIA' (11/09)",
+      "data_identificacao": "2026-09-11",
+      "prazo": "2026-09-30",
+      "prazo_texto": "Setembro",
+      "prioridade": "P3",
+      "status": "Aguardando cliente",
+      "fase": "Organização",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-09-11",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0024",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Rotina financeira: agendar pagamentos com antecedência, local único para boletos, acesso das sócias pelo celular",
+      "responsavel": "Scheffler (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: ata 'Reuniao 3 - SCHEFFLER ADVOCACIA' (11/09)",
+      "data_identificacao": "2026-09-11",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Gestão",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-09-11",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0025",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Conferir as contas da RGE/CPFL de julho e agosto",
+      "responsavel": "Scheffler (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: ata 'Reuniao 3 - SCHEFFLER ADVOCACIA' (11/09)",
+      "data_identificacao": "2026-09-11",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Organização",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-09-11",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0026",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Criar protocolo formal de cobrança e revisar os clientes inadimplentes",
+      "responsavel": "Scheffler (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-11",
+      "prazo": null,
+      "prazo_texto": "Prioridade imediata",
+      "prioridade": "P3",
+      "status": "Aguardando cliente",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-11",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0027",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Provisionar o valor mensal acordado para o Sr. Ademar (a partir de outubro)",
+      "responsavel": "Scheffler (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-11",
+      "prazo": null,
+      "prazo_texto": "A partir de outubro",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Planejamento",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-11",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0028",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Finalizar a contratação administrativa em meio turno",
+      "responsavel": "Scheffler (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-11",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-11",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0029",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Comercial: manter 1:1 no BNI e retomar Maritânia, Juliano, Inês e demais oportunidades",
+      "responsavel": "Lívia/Elisângela (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-11",
+      "prazo": null,
+      "prazo_texto": "Contínuo",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Planejamento",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-11",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0030",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Finalizar a conferência histórica das contas no sistema (BB revisado, Banrisul em conferência)",
+      "responsavel": "Scheffler (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-30",
+      "prazo": "2026-10-31",
+      "prazo_texto": "Outubro",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-30",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0031",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Ajustar o saldo inicial e os lançamentos do Sicredi (conta cadastrada com saldo zero)",
+      "responsavel": "Scheffler (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-30",
+      "prazo": "2026-10-31",
+      "prazo_texto": "Outubro",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-30",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0032",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Concluir a organização e a conciliação do sistema financeiro",
+      "responsavel": "Scheffler + ALM",
+      "categoria": "equipe_tecnica",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-30",
+      "prazo": "2026-10-25",
+      "prazo_texto": "~25/10/2026",
+      "prioridade": "P3",
+      "status": "Em andamento",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-07",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        },
+        {
+          "data": "2026-10-08",
+          "evento": "status alterado",
+          "fonte": "Supabase intranet-alm: closing_cycles",
+          "detalhe": "Ciclo set/26 marcado 'em_analise' por Liliane em 07/10"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0033",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Configurar DRE, fluxo de caixa e plano de contas no sistema",
+      "responsavel": "ALM",
+      "categoria": "equipe_tecnica",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-30",
+      "prazo": null,
+      "prazo_texto": "Depois da conferência",
+      "prioridade": "P3",
+      "status": "Aberta",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-30",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0034",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Revisar a competência dos lançamentos de agosto e setembro",
+      "responsavel": "A confirmar (provavelmente ALM)",
+      "categoria": "equipe_tecnica",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-30",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P3",
+      "status": "Aberta",
+      "fase": "Organização",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-09-30",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0035",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Usar o sistema como base principal do fechamento",
+      "responsavel": "Scheffler + ALM",
+      "categoria": "cliente",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-30",
+      "prazo": "2026-11-30",
+      "prazo_texto": "Novembro, depois da validação",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-30",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0036",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Formar capital de giro de R$ 30 mil",
+      "responsavel": "Scheffler (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-30",
+      "prazo": null,
+      "prazo_texto": "Em andamento",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Planejamento",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-30",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0037",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Avaliar boleto e automação da cobrança",
+      "responsavel": "Scheffler (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-30",
+      "prazo": null,
+      "prazo_texto": "Próximos meses",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-30",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0038",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Revisar contratos quanto à emissão da NF e às condições de pagamento",
+      "responsavel": "Scheffler (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-30",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-30",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0039",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Estruturar planos jurídicos com entregas delimitadas",
+      "responsavel": "Scheffler (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-30",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Planejamento",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-30",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0040",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Formalizar o trabalho com Sérgio (escopo e instrumentos de continuidade)",
+      "responsavel": "Scheffler (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: 'Resumo_Reuniao_Scheffler_Setembro_2026' (30/09)",
+      "data_identificacao": "2026-09-30",
+      "prazo": null,
+      "prazo_texto": "Prioridade comercial",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Planejamento",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-30",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0041",
+      "cliente": "Puhl Empreendimentos",
+      "descricao": "Receber o questionário de Planejamento 2027 respondido por Gilberto e Rosângela (separadamente)",
+      "responsavel": "Gilberto e Rosângela (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: Planejamento_Puhl_2027_Questionario.pdf (28/09)",
+      "data_identificacao": "2026-09-28",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Planejamento",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-28",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0042",
+      "cliente": "Puhl Empreendimentos",
+      "descricao": "Concluir o POP de fechamento da Puhl (pasta marcada 'PENDENTE' desde 24/07)",
+      "responsavel": "Deise",
+      "categoria": "equipe_tecnica",
+      "origem": "Drive: POPs de fechamentos",
+      "data_identificacao": "2026-07-24",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P3",
+      "status": "Aberta",
+      "fase": "Organização",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-07-24",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0043",
+      "cliente": "Puhl Empreendimentos",
+      "descricao": "Concluir o fechamento de setembro para a reunião de 15/10",
+      "responsavel": "Deise / Liliane (revisão)",
+      "categoria": "equipe_tecnica",
+      "origem": "Drive (GestaoFinanceira 2026-Puhl 1.10) e Agenda",
+      "data_identificacao": "2026-10-01",
+      "prazo": "2026-10-15",
+      "prazo_texto": null,
+      "prioridade": "P3",
+      "status": "Aguardando direção",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-07",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        },
+        {
+          "data": "2026-10-08",
+          "evento": "status alterado",
+          "fonte": "Supabase intranet-alm: closing_cycles",
+          "detalhe": "Ciclo set/26 marcado 'aguardando_revisao' por Liliane em 07/10"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0044",
+      "cliente": "Seu Santo",
+      "descricao": "Fechamento de setembro: verificar se precisa ser revisado com os documentos SET26 recebidos em 08/10",
+      "responsavel": "Deise",
+      "categoria": "equipe_tecnica",
+      "origem": "Drive: 'Análise Financeira Seu Santo2.1.pdf' (06/10) e Arquivos recebidos › SET26",
+      "data_identificacao": "2026-10-02",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P3",
+      "status": "Aberta",
+      "fase": "Organização",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        },
+        {
+          "data": "2026-10-08",
+          "evento": "divergência",
+          "fonte": "Supabase intranet-alm: closing_cycles",
+          "detalhe": "Ciclo set/26 criado como 'nao_iniciado' em 08/10, mas a análise foi publicada ao cliente em 06/10. Confirmar o status real."
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0045",
+      "cliente": "Seu Santo",
+      "descricao": "Nova sede: fechar o orçamento total e separar investimento de despesa (imediato); levantar o que falta pagar e definir o orçamento do evento (até 23/10); projetar o caixa até dezembro (até 30/10)",
+      "responsavel": "Seu Santo (Andréia), com apoio da ALM",
+      "categoria": "cliente",
+      "origem": "Drive: 'Checklist nova sede.docx' (05/10)",
+      "data_identificacao": "2026-10-05",
+      "prazo": "2026-10-23",
+      "prazo_texto": "Imediato / 23/10 / 30/10",
+      "prioridade": "P3",
+      "status": "Aguardando cliente",
+      "fase": "Planejamento",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-05",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0046",
+      "cliente": "Souvenir Festas",
+      "descricao": "Concluir o POP de fechamento (pasta 'PENDENTE' desde 24/07)",
+      "responsavel": "Deise",
+      "categoria": "equipe_tecnica",
+      "origem": "Drive: POPs de fechamentos",
+      "data_identificacao": "2026-07-24",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P4",
+      "status": "Aberta",
+      "fase": "Organização",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-07-24",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0047",
+      "cliente": "Padaria Feiten (proposta)",
+      "descricao": "Acompanhar a resposta ao Orçamento 260906 (Planejamento Prata), enviado em 28/09",
+      "responsavel": "Liliane",
+      "categoria": "comercial",
+      "origem": "Drive: Orcamento_260906_PADARIA_FEITEN_LTDA.pdf e Agenda (25 e 28/09)",
+      "data_identificacao": "2026-09-28",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P3",
+      "status": "Aguardando cliente",
+      "fase": null,
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-09-28",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0048",
+      "cliente": "Wiva Bordados",
+      "descricao": "Formulário A do Finep Inovacred (assinado em 02/10): confirmar envio/protocolo e acompanhar retorno",
+      "responsavel": "ALM (a confirmar)",
+      "categoria": "equipe_tecnica",
+      "origem": "Drive: WIVA BORDADOS › Finep Inovacred - Formulário A [4.10]-assinado.pdf",
+      "data_identificacao": "2026-10-02",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P3",
+      "status": "Aberta",
+      "fase": null,
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-10-02",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0049",
+      "cliente": "CULT Idiomas",
+      "descricao": "Analisar os documentos enviados pelo cliente e preparar a reunião inicial de 13/10",
+      "responsavel": "Liliane",
+      "categoria": "direcao",
+      "origem": "Drive: 02 - CLIENTES › CULT IDIOMAS e Agenda",
+      "data_identificacao": "2026-10-05",
+      "prazo": "2026-10-13",
+      "prazo_texto": null,
+      "prioridade": "P2",
+      "status": "Em andamento",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-07",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "importada",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "Linha de base importada do relatório anterior"
+        },
+        {
+          "data": "2026-10-08",
+          "evento": "status alterado",
+          "fonte": "Supabase intranet-alm: closing_cycles",
+          "detalhe": "Ciclo set/26 marcado 'em_tratamento' por Liliane em 07/10"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0050",
+      "cliente": "Scheffler & Scheffler Advogados",
+      "descricao": "Enviar os extratos completos do mês (set/26)",
+      "responsavel": "Elisângela (cliente)",
+      "categoria": "cliente",
+      "origem": "Supabase intranet-alm: closing_tasks",
+      "data_identificacao": "2026-10-07",
+      "prazo": "2026-10-13",
+      "prazo_texto": null,
+      "prioridade": "P3",
+      "status": "Aguardando cliente",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-07",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Supabase intranet-alm: closing_tasks",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0051",
+      "cliente": "Puhl Empreendimentos",
+      "descricao": "Fechamento do custo de obras (set/26)",
+      "responsavel": "Liliane",
+      "categoria": "direcao",
+      "origem": "Supabase intranet-alm: closing_tasks",
+      "data_identificacao": "2026-10-07",
+      "prazo": "2026-10-13",
+      "prazo_texto": null,
+      "prioridade": "P2",
+      "status": "Aberta",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-07",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Supabase intranet-alm: closing_tasks",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0052",
+      "cliente": "Puhl Empreendimentos",
+      "descricao": "Fechamento do caixa em espécie (set/26)",
+      "responsavel": "Gorete (cliente)",
+      "categoria": "cliente",
+      "origem": "Supabase intranet-alm: closing_tasks",
+      "data_identificacao": "2026-10-07",
+      "prazo": "2026-10-09",
+      "prazo_texto": null,
+      "prioridade": "P3",
+      "status": "Aguardando cliente",
+      "fase": "Organização",
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-10-07",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Supabase intranet-alm: closing_tasks",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        },
+        {
+          "data": "2026-10-08",
+          "evento": "observação",
+          "fonte": "Drive: 'Pendências Clientes - Semana 2026-10-05 (atualização 08-10)'",
+          "detalhe": "O relatório anterior deu como resolvido o caixa em espécie da Puhl (extratos de 07/10), mas esta tarefa do cliente continua 'pendente' no Supabase. Confirmar se são etapas diferentes."
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0053",
+      "cliente": "Miami e Orlando",
+      "descricao": "Pedir ao Rodrigo o histórico do ano de altas e tiradas de pacientes, atualizar a análise e enviar aos sócios",
+      "responsavel": "Liliane",
+      "categoria": "direcao",
+      "origem": "Drive: transcrição Tactiq 'Fechamento Set/26 - Miami e Orlando - 2026-10-07'",
+      "data_identificacao": "2026-10-07",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P3",
+      "status": "Aberta",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-07",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Drive: transcrição Tactiq 'Fechamento Set/26 - Miami e Orlando - 2026-10-07'",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0054",
+      "cliente": "Miami e Orlando",
+      "descricao": "Criar no plano de contas a conta 'reembolso de seguro' e registrar separadamente esses reembolsos",
+      "responsavel": "Liliane",
+      "categoria": "direcao",
+      "origem": "Drive: transcrição Tactiq 'Fechamento Set/26 - Miami e Orlando - 2026-10-07'",
+      "data_identificacao": "2026-10-07",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P3",
+      "status": "Aberta",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-07",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Drive: transcrição Tactiq 'Fechamento Set/26 - Miami e Orlando - 2026-10-07'",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0055",
+      "cliente": "Madri",
+      "descricao": "Ajustar o novo modelo de apresentação aos sócios (desvios de ±15%) conforme pedido e reapresentar no fechamento set/26",
+      "responsavel": "Liliane",
+      "categoria": "direcao",
+      "origem": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08' (relato da Liliane)",
+      "data_identificacao": "2026-10-08",
+      "prazo": "2026-10-21",
+      "prazo_texto": null,
+      "prioridade": "P3",
+      "status": "Aberta",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08' (relato da Liliane)",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0056",
+      "cliente": "New Nose",
+      "descricao": "Lançar as taxas da Stone em conta própria do plano de contas a partir do próximo fechamento",
+      "responsavel": "Deise",
+      "categoria": "equipe_tecnica",
+      "origem": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08'",
+      "data_identificacao": "2026-10-08",
+      "prazo": null,
+      "prazo_texto": "Próximo fechamento (out/26)",
+      "prioridade": "P4",
+      "status": "Aberta",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08'",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0057",
+      "cliente": "New Nose",
+      "descricao": "Decidir se mantém a antecipação de recebíveis da Stone e cotar a taxa sem antecipação",
+      "responsavel": "Sócios / gerência New Nose (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08' e Drive: transcrição Tactiq 'Fechamento set/26 - Vita e New Nose - 2026-10-08'",
+      "data_identificacao": "2026-10-08",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08' e Drive: transcrição Tactiq 'Fechamento set/26 - Vita e New Nose - 2026-10-08'",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0058",
+      "cliente": "New Nose",
+      "descricao": "Reunião do Dr. Jan com o gestor de tráfego sobre o desempenho das campanhas",
+      "responsavel": "Gerência New Nose (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08'",
+      "data_identificacao": "2026-10-08",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08'",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0059",
+      "cliente": "Vita Sorriso",
+      "descricao": "Receber o relatório de inadimplência e boletos em aberto (link do Felipe não chegou nos últimos dois meses)",
+      "responsavel": "Felipe (Vita); Liliane ficou de contatá-lo",
+      "categoria": "cliente",
+      "origem": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08' e Drive: transcrição Tactiq 'Fechamento set/26 - Vita e New Nose - 2026-10-08'",
+      "data_identificacao": "2026-10-08",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P2",
+      "status": "Aguardando cliente",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08' e Drive: transcrição Tactiq 'Fechamento set/26 - Vita e New Nose - 2026-10-08'",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0060",
+      "cliente": "Vita Sorriso",
+      "descricao": "Formalizar a política de cobrança e enviar o relatório diário às 9h, conforme pedido do sócio",
+      "responsavel": "Felipe (Vita)",
+      "categoria": "cliente",
+      "origem": "Drive: transcrição Tactiq 'Fechamento set/26 - Vita e New Nose - 2026-10-08'",
+      "data_identificacao": "2026-10-08",
+      "prazo": null,
+      "prazo_texto": "Diário, 9h (pedido do sócio)",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Drive: transcrição Tactiq 'Fechamento set/26 - Vita e New Nose - 2026-10-08'",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0061",
+      "cliente": "Vita Sorriso",
+      "descricao": "Incluir no relatório comercial o número de documentações finais ao lado das instalações",
+      "responsavel": "Liliane",
+      "categoria": "direcao",
+      "origem": "Drive: transcrição Tactiq 'Fechamento set/26 - Vita e New Nose - 2026-10-08'",
+      "data_identificacao": "2026-10-08",
+      "prazo": null,
+      "prazo_texto": "Próximo fechamento",
+      "prioridade": "P4",
+      "status": "Aberta",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Drive: transcrição Tactiq 'Fechamento set/26 - Vita e New Nose - 2026-10-08'",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0062",
+      "cliente": "Vita Sorriso",
+      "descricao": "Ajustar a planilha: 'comissão avaliadora/vendedora' com diárias, linha 'boleto/clínica' e o dado de setembro que sumiu",
+      "responsavel": "Deise",
+      "categoria": "equipe_tecnica",
+      "origem": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08'",
+      "data_identificacao": "2026-10-08",
+      "prazo": null,
+      "prazo_texto": "Próximo fechamento",
+      "prioridade": "P3",
+      "status": "Aberta",
+      "fase": "Organização",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08'",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0063",
+      "cliente": "Vita Sorriso",
+      "descricao": "Lançar nas previsões o acordo jurídico (10 parcelas de R$ 2.500) e retirar as previsões de comissão do profissional desligado",
+      "responsavel": "Liliane",
+      "categoria": "direcao",
+      "origem": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08'",
+      "data_identificacao": "2026-10-08",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P3",
+      "status": "Aberta",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08'",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0064",
+      "cliente": "Vita Sorriso",
+      "descricao": "Quitar o plano de saúde em aberto (agosto e setembro), que a Vita disse que pagaria este mês",
+      "responsavel": "Vita (cliente)",
+      "categoria": "cliente",
+      "origem": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08'",
+      "data_identificacao": "2026-10-08",
+      "prazo": "2026-10-31",
+      "prazo_texto": "Outubro",
+      "prioridade": "P4",
+      "status": "Aguardando cliente",
+      "fase": "Gestão",
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Drive: transcrição Tactiq 'Alinhamento Vita e New Nose - 2026-10-08'",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0065",
+      "cliente": "CULT Idiomas",
+      "descricao": "Confirmar com o cliente data, horário e convite da reunião inicial (o evento de 13/10 não tem convidados e o cliente prefere sexta à tarde)",
+      "responsavel": "Liliane",
+      "categoria": "direcao",
+      "origem": "Agenda: 'Reunião inicial CULT' (13/10) e Drive: transcrição 'Reunião Cult - 2026-10-05'",
+      "data_identificacao": "2026-10-08",
+      "prazo": "2026-10-09",
+      "prazo_texto": null,
+      "prioridade": "P2",
+      "status": "Aberta",
+      "fase": null,
+      "precisa_confirmacao": false,
+      "ultima_movimentacao": "2026-10-08",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Agenda: 'Reunião inicial CULT' (13/10) e Drive: transcrição 'Reunião Cult - 2026-10-05'",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0066",
+      "cliente": "CULT Idiomas",
+      "descricao": "Decidir sobre o pedido de acesso de Inner Cult Escola à pasta 'Compartilhada com o cliente' (05/10)",
+      "responsavel": "Liliane",
+      "categoria": "administrativa",
+      "origem": "Gmail: 'Solicitação de compartilhamento' (05/10)",
+      "data_identificacao": "2026-10-05",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P3",
+      "status": "Aguardando direção",
+      "fase": null,
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-10-05",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Gmail: 'Solicitação de compartilhamento' (05/10)",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0067",
+      "cliente": "ALM (administrativo)",
+      "descricao": "Revisar e trocar as senhas salvas que o Google apontou como expostas em vazamento (alerta crítico de 30/09)",
+      "responsavel": "Liliane",
+      "categoria": "administrativa",
+      "origem": "Gmail: 'Alerta crítico de segurança' (30/09)",
+      "data_identificacao": "2026-09-30",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P2",
+      "status": "Aguardando direção",
+      "fase": null,
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-09-30",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Gmail: 'Alerta crítico de segurança' (30/09)",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    },
+    {
+      "id": "ALM-0068",
+      "cliente": "ALM (administrativo)",
+      "descricao": "Atualizar a forma de pagamento da assinatura Google One (cartão recusado em 05/10)",
+      "responsavel": "Liliane",
+      "categoria": "administrativa",
+      "origem": "Gmail: Google Play (05/10)",
+      "data_identificacao": "2026-10-05",
+      "prazo": null,
+      "prazo_texto": "Sem prazo informado",
+      "prioridade": "P3",
+      "status": "Aguardando direção",
+      "fase": null,
+      "precisa_confirmacao": true,
+      "ultima_movimentacao": "2026-10-05",
+      "historico": [
+        {
+          "data": "2026-10-08",
+          "evento": "identificada",
+          "fonte": "Gmail: Google Play (05/10)",
+          "detalhe": "Nova pendência identificada na execução de 08/10/2026"
+        }
+      ],
+      "evidencia_conclusao": null
+    }
+  ]
+}

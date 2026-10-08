@@ -1,0 +1,37 @@
+{
+  "fuso_horario": "America/Sao_Paulo",
+  "execucao": {
+    "modo": "simulacao",
+    "trava_expira_minutos": 120
+  },
+  "agendamento": {
+    "dias": "segunda a sexta, exceto feriados nacionais",
+    "cron": "CRON_TZ=America/Sao_Paulo 52 6 * * 1-5",
+    "observacao": "06h52 (horário de Brasília), antes do expediente. Feriados são verificados pelo comando 'dia-util'.",
+    "feriados_adicionais": []
+  },
+  "fontes": {
+    "agenda_principal": "contato@almconsultoria.com.br",
+    "agendas_equipe": ["deise@almconsultoria.com.br", "lisiane@almconsultoria.com.br", "tatieli@almconsultoria.com.br"],
+    "drive_pastas": {
+      "transcricoes_tactiq": "13tZGMYbqi2fisjaM01aItd1nJvqa_1KH",
+      "resumos_reuniao": "1BBgHGC66ZiJ3LaYhMgUPCOtG5UPEma8D",
+      "relatorios_pendencias_anteriores": "1eAmxX_rqWAap10fjj93h05tcmM4k5Sc9"
+    },
+    "gmail_conta_conectada": "contato.almconsultoria@gmail.com",
+    "gmail_janela_dias": 15,
+    "supabase_projeto": "ctathvuhlsabvsjyitxu",
+    "supabase_tabelas_leitura": ["closing_clients", "closing_cycles", "closing_tasks", "closing_state"]
+  },
+  "relatorio": {
+    "dias_sem_movimentacao": 14,
+    "janela_agenda_dias": 7
+  },
+  "email": {
+    "servico": "gmail",
+    "modo_envio": "rascunho",
+    "destinatario": null,
+    "envio_autorizado": false,
+    "max_prioridades_corpo": 5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "data": "2026-10-08",
+  "modo": "simulacao",
+  "status": "concluida",
+  "inicio": "2026-10-08T18:22:43.883510-03:00",
+  "etapas_concluidas": [
+    "historico",
+    "agenda",
+    "atas",
+    "emails",
+    "clientes",
+    "equipe",
+    "prioridades",
+    "relatorio",
+    "email",
+    "persistencia"
+  ],
+  "erros": [],
+  "envio": null,
+  "fim": "2026-10-08T18:24:24.952101-03:00",
+  "observacao": "Simulação completa: sem envio de e-mail e sem escrita em fontes externas"
+}
